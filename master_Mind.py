@@ -14,6 +14,17 @@ adminCreds = {
     "Pass": credentials.adminPass
 }
 
+numLet = {
+    "one" : 1,
+    "two" : 2,
+    "three" : 3,
+    "four" : 4,
+    "five" : 5,
+    "six" : 6
+}
+
+print(numLet["one"])
+
 def generate_Code(length=4, digits=6):
     return [str(random.randint(1, digits)) for _ in range(length)]
 
